@@ -1,5 +1,5 @@
 import os
-directory = 'C:/Users/camro/PycharmProjects/BIO383_P2/data/'
+directory = 'C:/Users/econw/Documents/biotest/data/'
 
 
 def compare(this, that):

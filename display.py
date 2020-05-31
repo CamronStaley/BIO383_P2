@@ -1,5 +1,5 @@
 import os
-
+import plotly.express as px
 
 def display_results(dir):
     data = []
@@ -14,5 +14,6 @@ def display_results(dir):
             labels.append(name[0])
     print(data)
     print(labels)
-
+    fig = px.bar(x = labels, y = data, title = 'Similarity of SARS-CoV-2')
+    fig.show()
 
