@@ -14,6 +14,6 @@ def display_results(dir):
             labels.append(name[0])
     print(data)
     print(labels)
-    fig = px.bar(x = labels, y = data, title = 'Similarity of SARS-CoV-2')
+    fig = px.bar(x = labels, y = data, title = 'Similarity of SARS-CoV-2', labels = {'x':'Virus', 'y':'Percent'})
     fig.show()
 
